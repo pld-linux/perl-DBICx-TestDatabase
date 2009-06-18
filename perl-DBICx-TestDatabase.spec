@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/DBICx/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/J/JR/JROCKWAY/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e236d1a2bb4b07c70b35af0ae6e49415
 URL:		http://search.cpan.org/dist/DBICx-TestDatabase/
 BuildRequires:	perl-devel >= 1:5.8.0

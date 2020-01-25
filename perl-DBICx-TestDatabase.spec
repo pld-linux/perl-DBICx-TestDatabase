@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	DBICx
 %define	pnam	TestDatabase
 Summary:	DBICx::TestDatabase - create a temporary database from a DBIx::Class::Schema

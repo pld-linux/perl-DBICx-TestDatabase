@@ -8,7 +8,7 @@ Summary:	DBICx::TestDatabase - create a temporary database from a DBIx::Class::S
 Summary(pl.UTF-8):	DBICx::TestDatabase - tworzy tymczasową bazę danych z DBIx::Class::Schema
 Name:		perl-DBICx-TestDatabase
 Version:	0.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

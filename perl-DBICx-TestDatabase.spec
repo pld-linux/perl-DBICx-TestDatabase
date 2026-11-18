@@ -7,13 +7,13 @@
 Summary:	DBICx::TestDatabase - create a temporary database from a DBIx::Class::Schema
 Summary(pl.UTF-8):	DBICx::TestDatabase - tworzy tymczasową bazę danych z DBIx::Class::Schema
 Name:		perl-DBICx-TestDatabase
-Version:	0.02
-Release:	2
+Version:	0.05
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/J/JR/JROCKWAY/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e236d1a2bb4b07c70b35af0ae6e49415
+Source0:	https://www.cpan.org/authors/id/J/JR/JROCKWAY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	a022f7e4ae5dfebcb246a7903ad0aa6a
 URL:		http://search.cpan.org/dist/DBICx-TestDatabase/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -23,6 +23,8 @@ BuildRequires:	perl-DBIx-Class
 BuildRequires:	perl-SQL-Translator
 BuildRequires:	perl-Test-use-ok
 %endif
+Requires:	perl-DBD-SQLite >= 1.29
+Requires:	perl-SQL-Translator
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
